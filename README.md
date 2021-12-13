@@ -4,7 +4,7 @@ Offer BG names &amp; where to put them
 
 
 # RU
-Всего 8 типов заднего фона[^1]:  
+Всего 8 типов заднего фона[^3]:  
 offer_generic  
 offer_special  
 offer_legendary  
@@ -19,12 +19,12 @@ offer_lny
            => self.writeString('название') <=  
 Но так также, можно сделать удобнее, написав   
             self.writeString(item['OfferBG'])  
-Не забыв внести изменения в Shop.py[^2]  
+Не забыв внести изменения в Shop.py[^1]  
 Найти эти названия можно в ui.sc, предварительно распаковав из lzma.  
 
 
 # ENG
-There's 8 types of backgrounds[^1]  
+There's 8 types of backgrounds[^3]  
 offer_generic  
 offer_special  
 offer_legendary  
@@ -39,7 +39,7 @@ You need to past them in OwnHomeData, or in LogicShopData, below next strokes
            => self.writeString('bgname') <=  
 You can do that better:  
             self.writeString(item['OfferBG'])  
-But don't forget to do changes in Shop.py[^3]  
+But don't forget to do changes in Shop.py[^2]  
 If you want to find these names, lzma decompress ui.sc  
   
   
