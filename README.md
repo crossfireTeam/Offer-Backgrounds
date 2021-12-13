@@ -45,4 +45,4 @@ If you want to find these names, lzma decompress ui.sc
   
 [^1]: Относится к первой версии Classic Brawl
 [^2]: Refers to the first version of Classic Brawl    
-[^3]: ![lol2](https://github.com/crossfireTeam/Offer-Backgrounds/blob/main/tutorial1.jpg)
+[^3]: ![lol2](https://github.com/crossfireTeam/Offer-Backgrounds/blob/main/tutorial.jpg)
