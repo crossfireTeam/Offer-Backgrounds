@@ -17,10 +17,11 @@ offer_lny
             self.write_string_reference(item['OfferTitle'])
             self.writeBoolean(False)
            => self.writeString('название') <=
-Но также, можно сделать удобнее, написав 
+Но так также же, можно сделать удобнее, написав 
             self.writeString(item['OfferBG'])
 Не забыв внести изменения в Shop.py ||для Classic Brawl 1.0||
 Найти эти названия можно в ui.sc, предварительно распаковав из lzma.
+
 
 ENG
 There's 8 types of backgrounds
@@ -36,7 +37,7 @@ You need to past them in OwnHomeData, or in LogicShopData, below next strokes
            self.write_string_reference(item['OfferTitle'])
             self.writeBoolean(False)
            => self.writeString('bgname') <=
-Но так также же, можно сделать удобнее, написав 
+You can do that better:
             self.writeString(item['OfferBG'])
-Не забыв внести изменения в Shop.py ||для Classic Brawl 1.0||
-Найти эти названия можно в ui.sc, предварительно распаковав из lzma.
+But don't forget to do changes in Shop.py ||for Classic Brawl 1.0||
+If you want to find these names, lzma decompress ui.sc
