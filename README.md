@@ -17,7 +17,7 @@ offer_lny
             self.write_string_reference(item['OfferTitle'])  
             self.writeBoolean(False)  
            => self.writeString('название') <=  
-Но так также, можно сделать удобнее, написав   
+Но также, можно сделать удобнее, написав   
             self.writeString(item['OfferBG'])  
 Не забыв внести изменения в Shop.py[^1]  
 Найти эти названия можно в ui.sc, предварительно распаковав из lzma.  
